@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(sun2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.container{
+    background-color: rgb(45, 55, 60,0.65);
+    width: 600px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 20px;
+    
+}
+.container h1{
+    text-align: center;
+    margin-top: 10px;
+}
+.msg{
+    text-align: center;
+}
+input{
+    background-color: rgb(148, 81, 81,0.8);
+    border-radius: 15px;
+    border: none;
+    width: 80%;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+button{
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+    width: 100px;
+    margin-left: 10px;
+}
+.calabar{
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    background-color: rgb(45, 55, 60,0.65) ;
+    border-radius: 10px;
+    border: none;
+    margin-left: 4px;
+    box-sizing: border-box;
+}
+.calabar img{
+    border-radius: 50%;
+    width: 100px;
+    
+}
+.cmsg{
+    margin-left: 40px;
+}
+.days{
+    width: 110%;
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    margin-top: 10px;
+}
+.day{
+    width: 120px;
+    height: 120px;
+    background-color: rgb(45, 55, 60,0.65);
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    
+}
+.day img{
+    width: 50px;
+    border-radius: 50%;
+    margin-top: 10px;
+    
+}
